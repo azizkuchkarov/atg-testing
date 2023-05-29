@@ -1,0 +1,59 @@
+import { HeroPattern } from '@/components/HeroPattern'
+
+import { GPA } from '@/components/KS1/GPA.jsx'
+import { Genarator11 } from '@/components/KS1/Generator1.jsx'
+import { Cleaning1 } from '@/components/KS1/Cleaning.jsx'
+import { AVO } from '@/components/KS1/AVO.jsx'
+import {Measuring} from '@/components/KS1/Measuring.jsx'
+import {KSB} from '@/components/KS1/KSB.jsx'
+import {BPTG} from '@/components/KS1/BPTG.jsx'
+import {ESD} from '@/components/KS1/ESD.jsx'
+import {Firefighting} from '@/components/KS1/Firefighting.jsx'
+import {Sewerage} from '@/components/KS1/Sewerage.jsx'
+import { WKC1Image } from '@/components/KS1/wkc1Image.jsx'
+
+
+
+export const description = 'Be professional with Asia Trans Gas Academy'
+
+export const sections = [
+  { title: 'ГПА', id: 'gpa' ,
+   subsections: [
+      { title: 'Step 1', id: 'step1' },
+      { title: 'Step 2', id: 'step2' },
+    ]
+  },
+  { title: 'Газогенератор', id: 'generator1' },
+  { title: 'Зона очистки', id: 'cleaning1' },
+  { title: 'АВО', id: 'avo1' },
+  { title: 'Замерная зона ', id: 'measuring1' },
+  { title: 'ESD', id: 'esd' },
+  { title: 'ПОЖАРОТУШЕНИЕ КОМПРЕССОРНЫХ СТАНЦИЙ ', id: 'firefighting' },
+  { title: 'БПТГ', id: 'bptg' },
+  { title: 'КСВ', id: 'ksb' },
+  { title: 'Канализация', id: 'sewerage' },
+]
+
+<HeroPattern />
+
+# WKC-1
+WKC1 Узбекистан Компрессорная Станция №1 - Местонахождения: Кашка-дарьинская обл, Миришкорский p-н, посёлок Кокдумалакю Год основания: 2009г. 
+
+Компрессорная станция состоит из следующих сооружений:
+
+1 площадки компрессоров - 5 зданий компрессорных цехов, в которых установлены 5 ГПА (3 центробежных агрегата по 30 МВт «GE Nuovo Pignone» и 2 центробежных агрегата по 15 МВт «Solar Turbines») c автоматической системой управления и регулирования, c антипомпажным регулированием, с системами маслоснабжения, охлаждения, электроснабжения, слежения за уровнем вибрации, контроля загазованности и пожарообнаружения, автоматического пожаротушения, обогрева, вентиляции и пневмопитания обеспечивающие нормальную работу агрегатов.{{ className: 'lead' }}
+
+
+### Техническая карта станции WKC1:
+<WKC1Image/> 
+
+<GPA />
+<Genarator11 />
+<Cleaning1 />
+<AVO/>
+<Measuring/>
+<KSB/>
+<BPTG/>
+<ESD/>
+<Firefighting/>
+<Sewerage/>
